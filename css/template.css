@@ -1,0 +1,107 @@
+
+/* css pour la navigation */
+.navbar-default
+{
+    background-color:transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-nav li a
+{
+    color:#fff;
+}
+
+ul>li>a{
+text-decoration:none;
+color:#767676;
+background-color:#fff;
+}
+
+li a:hover{
+text-decoration:none;
+color:#767676;
+}
+
+li:hover{
+color:#767676;
+text-decoration:none;
+border-bottom:2px solid #767676;
+background-color:#fff;
+}
+
+/*css pour le logo */
+.logo-airbnb{
+  height: 63px;
+  width:88px;
+}
+.logo img
+{
+    margin:-15px 0 0 -80px;
+}
+
+/*container  voyage*/
+#voyage{
+height:1500px;
+padding:80px 0 80px 0;
+}
+
+#choix{
+height: 200px;
+margin-top: 150px;
+padding:80px 0 80px 0;
+}
+
+.voyage{
+margin: 40px 0px 25px 70px;
+}
+
+h1{
+color:#FF5A5F;
+font-size:3.2em;
+font-weight: bold;
+}
+p{
+color:#484848;
+font-size:2em;
+}
+
+
+/* container selection */
+/*.choix{
+margin-left: -55px;
+margin-right: -55px;
+}*/
+
+input{
+  background-color: transparent;
+  border: 0px solid;
+  height: 20px;
+  width: 160px;
+  color: #CCC;
+}
+
+input:focus {
+    outline:none;
+}
+
+.contour{
+height: 90px;
+/*width: 250px;*/
+border:1px solid #CCC;
+padding-top:15px;
+padding-bottom:50px;
+}
+
+.btn-default{
+  margin-top: -45px;
+  float: right;
+  width:100px;
+  height:52px;
+  color:#fff;
+  background-color:#FF5A5F;
+}
+
+/* second nav bar options */
+navbar-left{
+height:250px;
+margin-top:75px;
+}
